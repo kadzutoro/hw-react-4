@@ -1,7 +1,7 @@
 import css from './imageCard.module.css';
 
 const ImageCard = ({ image, openModal }) => {
-  const { alt_description, urls, user, likes, description, color } = image;
+  const { alt_description, urls, user, likes,color } = image;
 
   return (
     <div className={css.card} style={{ backgroundColor: color || '#f0f0f0' }}>

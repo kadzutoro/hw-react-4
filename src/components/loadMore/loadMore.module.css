@@ -1,6 +1,6 @@
 .wrapper {
   display: flex;
-  justify-content: center; /* по центру */
+  justify-content: center;
   margin: 16px 0;
 }
 
