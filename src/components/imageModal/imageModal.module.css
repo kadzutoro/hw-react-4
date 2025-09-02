@@ -1,0 +1,11 @@
+.imageWrapper {
+  max-width: 90vw;
+  max-height: 80vh;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
