@@ -1,7 +1,7 @@
 import { Formik, Form, Field } from 'formik';
 import toast, { Toaster } from 'react-hot-toast';
 import { IoSearchOutline } from 'react-icons/io5';
-import css from './SearchBar.module.css';
+import css from './searchBar.module.css';
 
 const SearchBar = ({ onSearch }) => {
   const handleSubmit = (values, { resetForm }) => {
