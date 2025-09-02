@@ -1,4 +1,4 @@
-import css from './LoadMore.module.css';
+import css from './loadMore.module.css';
 
 const LoadMore = ({ handleLoadMore }) => {
   return (
